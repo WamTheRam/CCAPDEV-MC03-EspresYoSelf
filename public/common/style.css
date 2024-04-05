@@ -1,0 +1,374 @@
+/* DOCUMENT CSS */
+body{
+    background-color: #FAFDF3;
+    font-family: 'Montserrat';
+    color:#0E0101;
+    overflow-y: scroll
+  }
+  
+  .document{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1, h2, h3, h4, h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  /* END OF DOCUMENT CSS */
+  
+  /* SCROLLBAR CSS */
+  ::-webkit-scrollbar{
+      width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track-piece{
+      background-color: #FFF;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+      background-color: #CBCBCB;
+      outline: 2px solid #FFF;
+      outline-offset: -2px;
+      border: .1px solid #B7B7B7;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+      background-color: #909090;
+  }
+  /* Reference: https://gist.github.com/adamblank/7896758 */
+  /* END OF SCROLLBAR CSS */
+  
+  /* HEADER CSS */
+  .header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .header-logo{
+    flex-grow: 1;
+  }
+    .header-logo-item{
+      height: 70px;
+    }
+  .header-search{
+    width: 50%;
+    text-align: center;
+  }
+    .header-search-bar{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    #search-query-input{
+      width: 100%;
+      height: 2.8rem;
+      outline: none;
+      border: none;
+      border-radius: 1.625rem;
+      padding: 0 3.5rem 0 1.5rem;
+      font-size: 1rem;
+      background-color: #eaebee;
+    }
+    #search-query-submit{
+      width: 3.5rem;
+      height: 2.8rem;
+      margin-left: -3.5rem;
+      background: none;
+      border: none;
+      outline: none;
+    }
+    #search-query-submit:hover{
+      cursor: pointer;
+    }
+  .header-profile{
+    width: 25%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+  }
+    .header-profile-button{
+      font-size: 1rem;
+      background-color: #DEC9B7;
+      text-align: center;
+      border: 0;
+      border-radius: 15px;
+      height: 30px;
+      width: 100px;
+      color: #0E0101;
+      text-decoration: none;
+    }
+    .header-profile-button:hover{
+      cursor: pointer;
+    }
+    .header-profile-user{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #0E0101;
+      text-decoration: none;
+    }
+    .header-profile-icon{
+      height: 75px;
+      width: 75px;
+      border-radius: 50%;
+    }
+  /* END OF HEADER CSS */
+  
+  /* MAIN BODY CSS */
+  hr{
+    width: 95%;
+    height: 4px;
+    background-color: #8c5835;
+    border: 0;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 10px;
+  }
+  .main > h1{
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .cafe{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .cafe-item{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    .cafe-image{
+      background-color: #8c5835;
+      width: 90%;
+      aspect-ratio: 1/1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10%;
+      margin: 5%;
+    }
+    .cafe-image > img{
+      width: 80%;
+      aspect-ratio: 1/1;
+    }
+    .cafe-details{
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .cafe-name{
+      display: flex;
+      gap: 10px;
+    }
+  .main > hr{
+    height: 2px;
+  }
+  /* END OF MAIN BODY CSS */
+  
+  /* PROFILE/CAFE CSS */
+  .profile-bio{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+    .profile-bio-image{
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .profile-bio-image > img{
+      width: 70%;
+      aspect-ratio: 1/1;
+      border-radius: 50%;
+    }
+    .profile-bio-details{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+    }
+    .profile-bio-details > h1{
+      font-size: 2.2em;
+    }
+    .profile-bio-details > p{
+      font-size: 1.1em;
+    }
+  .profile-details{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+    .profile-details-left{
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      gap: 5px;
+      align-items: center;
+      text-align: center;
+    }
+      .profile-details-left > a{
+        color: #0E0101;
+        text-decoration: none;
+      }
+      .profile-details-button-left, .profile-details-button-right, .profile-details-small-button{
+        background-color: #DEC9B7;
+        text-align: center;
+        border: 0;
+        margin-bottom: 20px;
+      }
+      .profile-details-button-left{
+        font-size: 1.2rem;
+        height: 30px;
+        width: 150px;
+        border-radius: 15px;
+      }
+      .profile-details-button-left:hover, .profile-details-button-right:hover, .profile-details-small-button:hover{
+        cursor: pointer;
+      }
+      .profile-details-left > a:hover{
+        cursor: pointer;
+      }
+      .profile-details-left > a > h5{
+        font-size: 1em;
+      }
+    .profile-details-right{
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      align-items: center;
+    }
+      .profile-details-right-parent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 25px;
+        margin-top: 20px;
+      }
+      .profile-details-right-item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+      }
+      .profile-details-button-right{
+        margin-top: 15px;
+        font-size: 1.4rem;
+        height: 35px;
+        width: 250px;
+        border-radius: 20px;
+      }
+      .profile-details-right-item > a{
+        color: #0E0101;
+        text-decoration: none;
+      }
+      .profile-details-right-line{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      .profile-details-right-line > img {
+        width: 50px;
+        height: 50px;
+      }
+      .profile-picture-image{
+        border-radius: 50%;
+      }
+      .reviews-search{
+        width: 70%;
+        text-align: center;
+      }
+        .reviews-search-bar{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+        #reviews-search-query-input{
+          width: 100%;
+          height: 2.2rem;
+          outline: none;
+          border: none;
+          border-radius: 1.625rem;
+          padding: 0 3.5rem 0 1.5rem;
+          font-size: 1rem;
+          background-color: #eaebee;
+        }
+        #reviews-search-query-submit{
+          width: 3.5rem;
+          height: 2.2rem;
+          margin-left: -3.5rem;
+          background: none;
+          border: none;
+          outline: none;
+        }
+        #reviews-search-query-submit:hover{
+          cursor: pointer;
+        }
+      .profile-details-small-button{
+        font-size: 1rem;
+        height: 20px;
+        width: 150px;
+        border-radius: 10px;
+      }
+      .profile-details-comment{
+        width: 90%;
+        min-height: 50px;
+        border-radius: 10px;
+        background-color: #8c5835;
+        color: white;
+        padding: 20px;
+      }
+  /* END OF PROFILE/CAFE CSS */
+  
+  /* ADD CAFE/EDIT PROFILE CSS */
+  .edit-line{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+  }
+    .edit-line-left{
+      width: 40%;
+      text-align: right;
+    }
+    .edit-line-right{
+      width: 60%;
+    }
+    .edit-line-right > input{
+      border: 1px solid #8c5835;
+      height: 40px;
+      width: 80%;
+    }
+    #edit-bio{
+      height: 170px;
+    }
+    .edit-button{
+      font-size: 1.4rem;
+      background-color: #DEC9B7;
+      text-align: center;
+      border: 0;
+      border-radius: 15px;
+      height: 40px;
+      width: 250px;
+      margin-bottom: 20px;
+    }
+    .edit-button:hover{
+      cursor: pointer;
+    }
+  /* END OF ADD CAFE/EDIT PROFILE CSS */

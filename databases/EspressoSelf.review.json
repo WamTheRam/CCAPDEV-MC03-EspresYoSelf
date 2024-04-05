@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "65ec2ac28166e6f3518c344c"
+  },
+  "username": "JudgementKazzy",
+  "cafe": "Coffee Bean & Tea Leaf",
+  "cafe_id": 5,
+  "image_src": "Photos/Cafe5_CBTL.jpg",
+  "rating": 5,
+  "comment": "Matcha here is top tier! Would definitely go again.",
+  "date": "02/16/24",
+  "isHelpful": 0,
+  "isUnhelpful": 0,
+  "owner_response": "",
+  "isEdited": false
+},
+{
+  "_id": {
+    "$oid": "65ec2b168166e6f3518c344d"
+  },
+  "username": "MadDogMaj",
+  "cafe": "Mood & Coffee",
+  "cafe_id": 2,
+  "image_src": "Photos/Cafe2_MoodAndCoffee.jpg",
+  "rating": 5,
+  "comment": "I've had my eye on this place for sometime. Definitely did not disappoint!",
+  "date": "01/21/24",
+  "isHelpful": 0,
+  "isUnhelpful": 0,
+  "owner_response": "",
+  "isEdited": false
+},
+{
+  "_id": {
+    "$oid": "65ec2bfe8166e6f3518c344e"
+  },
+  "username": "BaldTiger1",
+  "cafe": "Dapit-Hapon Cafe & Bistro",
+  "cafe_id": 3,
+  "image_src": "Photos/Cafe3_Dapithapon.jpg",
+  "rating": 4,
+  "comment": "Service took a little too long, but my espresso turned out great!",
+  "date": "08/15/23",
+  "isHelpful": 0,
+  "isUnhelpful": 0,
+  "owner_response": "",
+  "isEdited": false
+},
+{
+  "_id": {
+    "$oid": "65ec2c358166e6f3518c344f"
+  },
+  "username": "DaigoWithAGun",
+  "cafe": "Coffee Project",
+  "cafe_id": 4,
+  "image_src": "Photos/Cafe4_CoffeeProject.jpg",
+  "rating": 3,
+  "comment": "My hot chocolate was not hot enough. The toilet smelled terrible. But the barista was cute.",
+  "date": "12/29/23",
+  "isHelpful": 0,
+  "isUnhelpful": 0,
+  "owner_response": "",
+  "isEdited": false
+},
+{
+  "_id": {
+    "$oid": "65ec2d898166e6f3518c3450"
+  },
+  "username": "KoiKyodai",
+  "cafe": "Starbucks",
+  "cafe_id": 1,
+  "image_src": "Photos/Cafe1_Starbucks.jpg",
+  "rating": 5,
+  "comment": "The atmosphere here is the best! I like the music track. My mocha frappe was made quickly and perfectly.",
+  "date": "03/01/24",
+  "isHelpful": 0,
+  "isUnhelpful": 0,
+  "owner_response": "",
+  "isEdited": false
+}]

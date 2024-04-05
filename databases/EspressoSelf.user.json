@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "65ec27518166e6f3518c343a"
+  },
+  "username": "JudgementKazzy",
+  "password": "123",
+  "email": "taichi_suzuki@gmail.com",
+  "desc": "Computer Science student who believes in the power of coffee for coding.",
+  "profile_pic": "Photos/profile_picture.webp",
+  "helpful": [],
+  "cafes": [
+    "Coffee Project"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ec27f68166e6f3518c343b"
+  },
+  "username": "MadDogMaj",
+  "password": "123",
+  "email": "majima_goro@gmail.com",
+  "desc": "Goes mad if I don't get my daily coffee.",
+  "profile_pic": "Photos/profile_picture.webp",
+  "helpful": [],
+  "cafes": [
+    "Mood & Coffee"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ec283f8166e6f3518c343c"
+  },
+  "username": "BaldTiger1",
+  "password": "123",
+  "email": "saejima_taiga@gmail.com",
+  "desc": "On a mission to try every cafe there is.",
+  "profile_pic": "Photos/profile_picture.webp",
+  "helpful": [],
+  "cafes": [
+    "Starbucks",
+    "Coffee Bean & Tea Leaf"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ec28bd8166e6f3518c343d"
+  },
+  "username": "DaigoWithAGun",
+  "password": "123",
+  "email": "dojima_daigo@gmail.com",
+  "desc": "Looking for the perfect place to sip coffee and work",
+  "profile_pic": "Photos/profile_picture.webp",
+  "helpful": [],
+  "cafes": [
+    "Dapit-Hapon Cafe & Bistro"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65ec29288166e6f3518c343e"
+  },
+  "username": "KoiKyodai",
+  "password": "123",
+  "email": "aki_nishiki@gmail.com",
+  "desc": "Someday, I will own a cafe of my own.",
+  "profile_pic": "Photos/profile_picture.webp",
+  "helpful": [],
+  "cafes": [
+    
+  ]
+}]

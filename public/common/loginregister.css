@@ -1,0 +1,85 @@
+/* DOCUMENT CSS */
+body{
+    background-image: url("login_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat';
+    color:#0E0101;
+  }
+  
+  .document{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  h1, h2, h3, h4, h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  label, .button{
+    font-size: 1.2em;
+  }
+  
+  .button:hover{
+    cursor: pointer;
+  }
+  /* END OF DOCUMENT CSS */
+  
+  /* SCROLLBAR CSS */
+  ::-webkit-scrollbar{
+      width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track-piece{
+      background-color: #FFF;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+      background-color: #CBCBCB;
+      outline: 2px solid #FFF;
+      outline-offset: -2px;
+      border: .1px solid #B7B7B7;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+      background-color: #909090;
+  }
+  /* Reference: https://gist.github.com/adamblank/7896758 */
+  /* END OF SCROLLBAR CSS */
+  
+  /* MAIN BODY CSS */
+  
+  .document > img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .login-box{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+    .login-box-label-container{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+    }
+  input, .button{
+    width: 100%;
+    background-color: #dec9b7;
+    border-radius: 10%;
+    border: none;
+    height: 40px;
+    text-align: center;
+  }
+  .button{
+    margin-top: 10px;
+  }
+  /* END OF MAIN BODY CSS */

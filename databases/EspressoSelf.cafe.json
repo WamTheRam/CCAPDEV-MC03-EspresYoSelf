@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "65ec34f68166e6f3518c3459"
+  },
+  "name": "Starbucks",
+  "description": "It's not just coffee, it's Starbucks.",
+  "rating": 4,
+  "items": [
+    "Latte Macchiato",
+    "Java Chip",
+    "Matcha Latte",
+    "Caramel Frappuccino",
+    "Pumpkin Spice Latte"
+  ],
+  "owner": "Starbucks Corp.",
+  "address": "Torre Lorenzo, Taft Ave. cor Vito Cruz St, City of Manila.",
+  "price_range": "₱90-₱260",
+  "image_name": "Photos/Cafe1_Starbucks.jpg",
+  "cafe_id": 1
+},
+{
+  "_id": {
+    "$oid": "65ec36e38166e6f3518c345a"
+  },
+  "name": "Mood & Coffee",
+  "description": "Your mood, our coffee",
+  "rating": 5,
+  "items": [
+    "Latte Macchiato",
+    "Java Chip",
+    "Matcha Latte",
+    "Caramel Frappuccino",
+    "Pumpkin Spice Latte"
+  ],
+  "owner": "MoodAndCoffee",
+  "address": "2/F Linfong Foodcourt, Lasalle Taft Branch, Manila",
+  "price_range": "₱80-₱170",
+  "image_name": "Photos/Cafe2_MoodAndCoffee.jpg",
+  "cafe_id": 2
+},
+{
+  "_id": {
+    "$oid": "65ec386c8166e6f3518c345b"
+  },
+  "name": "Dapit-Hapon Cafe & Bistro",
+  "description": "Pair your coffee with our tasty meals!",
+  "rating": 4,
+  "items": [
+    "Latte Macchiato",
+    "Java Chip",
+    "Matcha Latte",
+    "Caramel Frappuccino",
+    "Pumpkin Spice Latte"
+  ],
+  "owner": "dapithapon",
+  "address": "859 Estrada St. Malate, Manila",
+  "price_range": "₱130-₱200",
+  "image_name": "Photos/Cafe3_Dapithapon.jpg",
+  "cafe_id": 3
+},
+{
+  "_id": {
+    "$oid": "65ec38b78166e6f3518c345c"
+  },
+  "name": "Coffee Project",
+  "description": "Philippines' most Instagrammable coffee shop",
+  "rating": 4,
+  "items": [
+    "Latte Macchiato",
+    "Java Chip",
+    "Matcha Latte",
+    "Caramel Frappuccino",
+    "Pumpkin Spice Latte"
+  ],
+  "owner": "coffeeprojectofficial",
+  "address": "G/F, Vista Taft Residences, Taft Avenue, Malate, Manila",
+  "price_range": "₱160-₱330",
+  "image_name": "Photos/Cafe4_CoffeeProject.jpg",
+  "cafe_id": 4
+},
+{
+  "_id": {
+    "$oid": "65ec393e8166e6f3518c3460"
+  },
+  "name": "Coffee Bean & Tea Leaf",
+  "description": "Born in Southern California, Brewed Worldwide. Home of The Original Ice Blended®. Since 1963, The Coffee Bean and Tea Leaf® has provided guests with specialty coffee & tea carefully handcrafted from seed to cup. Enjoy your favorite brew at #CBTLph!",
+  "rating": 4,
+  "items": [
+    "Latte Macchiato",
+    "Java Chip",
+    "Matcha Latte",
+    "Caramel Frappuccino",
+    "Pumpkin Spice Latte"
+  ],
+  "owner": "coffeebean",
+  "address": "Taft Ave. corner Castro St., and Fidel Reyes St, Malate, Manila",
+  "price_range": "₱120-₱280",
+  "image_name": "Photos/Cafe5_CBTL.jpg",
+  "cafe_id": 5
+}]

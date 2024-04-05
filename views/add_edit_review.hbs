@@ -1,0 +1,51 @@
+{{> header_user}}
+  <div class="main">
+    <h1>Create a Review</h1>
+    {{#if editing}}
+    <form action="submitEditedReview?id={{review_id}}" method="post">
+    {{else}}
+    <form action="submitReview" method="post">
+    {{/if}}
+    <div class="edit-line">
+      <div class="edit-line-left">
+        <h2>Cafe Name</h2>
+      </div>
+      <div class="edit-line-right">
+        <input name="cafe_name" type="text" class="text-answer" value="{{cafe_name}}" readonly />
+      </div>
+    </div>
+    <div class="edit-line">
+      <div class="edit-line-left">
+        <h2>Rating</h2>
+      </div>
+      <div class="edit-line-right">
+        <input name="input_rating" type="text" class="text-answer" placeholder="" value="{{rating}}" />
+      </div>
+    </div>
+    <div class="edit-line">
+      <div class="edit-line-left">
+        <h2>Review Body</h2>
+      </div>
+      <div class="edit-line-right">
+        <input name="input_review_body" type="text" class="text-answer" id="edit-bio" placeholder="" value="{{comment}}" />
+      </div>
+    </div>
+    <div class="edit-line">
+      <div class="edit-line-left">
+        <h2>Attach Media</h2>
+      </div>
+      <div class="edit-line-right">
+        <input type="text" class="text-answer" placeholder="" />
+      </div>
+    </div>
+    <div class="edit-line">
+      <div class="edit-line-left">
+      </div>
+      <div class="edit-line-right">
+        <button class="edit-button" type="submit">
+          Save Review
+        </button>
+      </div>
+    </div>
+    </form>
+  </div>
